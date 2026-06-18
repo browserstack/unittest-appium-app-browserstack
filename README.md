@@ -32,7 +32,7 @@ unittest-appium/
 
 ```bash
 git clone <this-repo>
-cd unittest-appium/android        # or cd unittest-appium/ios
+cd unittest-appium-app-browserstack/android        # or cd unittest-appium-app-browserstack/ios
 
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
