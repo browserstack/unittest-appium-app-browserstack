@@ -6,7 +6,7 @@ buildIdentifier: '#${BUILD_NUMBER}'
 # `framework` lets the SDK send test context (name, status) to BrowserStack.
 framework: unittest
 # Pre-uploaded BStackSampleApp.ipa (the SDK injects this as the app under test).
-app: bs://c5ed6ad3592c0df6322aa255da202ffb94af8f6d
+app: ./BStackSampleApp.ipa
 platforms:
   - deviceName: iPhone 14 Pro
     osVersion: '16'

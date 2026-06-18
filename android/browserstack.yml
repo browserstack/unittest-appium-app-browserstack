@@ -6,7 +6,7 @@ buildIdentifier: '#${BUILD_NUMBER}'
 # `framework` lets the SDK send test context (name, status) to BrowserStack.
 framework: unittest
 # Pre-uploaded WikipediaSample.apk (the SDK injects this as the app under test).
-app: bs://92d48b416632f2b1734259565ceab61b05ad0b24
+app: ./WikipediaSample.apk
 platforms:
   - deviceName: Samsung Galaxy S22 Ultra
     osVersion: "12.0"
