@@ -1,0 +1,3 @@
+Appium-Python-Client
+selenium>=4.0
+browserstack-sdk @ https://sdk-assets.browserstack.com/python/browserstack_sdk-latest.tar.gz

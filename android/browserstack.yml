@@ -1,0 +1,18 @@
+userName: YOUR_USERNAME
+accessKey: YOUR_ACCESS_KEY
+projectName: BrowserStack Samples
+buildName: appauto-unittest-appium
+buildIdentifier: '#${BUILD_NUMBER}'
+# `framework` lets the SDK send test context (name, status) to BrowserStack.
+framework: unittest
+# Pre-uploaded WikipediaSample.apk (the SDK injects this as the app under test).
+app: ./WikipediaSample.apk
+platforms:
+  - deviceName: Samsung Galaxy S22 Ultra
+    osVersion: "12.0"
+    platformName: android
+parallelsPerPlatform: 1
+source: unittest:appium-sample-sdk:v1.0
+testObservability: true
+debug: true
+networkLogs: true
